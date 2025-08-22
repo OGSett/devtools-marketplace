@@ -14,17 +14,26 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 350px;
+    width: 200px;
     margin: 0;
-    height: 115px;
+    /* height: 115px; */
   }
   .forLogoMob {
     background-image: url('./assets/edit3Mob.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 64px;
-    height: 64px;
+    width: 54px;
+    height: 54px;
     margin: 20px 0;
   }
+
 }
+/* body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+display: none;
+} */

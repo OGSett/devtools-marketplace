@@ -1,17 +1,36 @@
+import { useEffect, useState } from "react";
 import Card from "./subComponents/Card";
+import data from './utils/data.json'
+import { useData } from "../context/DataContext";
+
 
 const HomeComp = () => {
-    return ( <div className="tester  w-full md:h-[90%]   h-full overflow-y-auto">
-        <div className="grid gap-[10px] grid-cols-[repeat(2,minmax(auto,2fr))] sm:grid-cols-[repeat(2,minmax(200px,1fr))] md:grid-cols-[repeat(3,minmax(200px,1fr))] lg:grid-cols-[repeat(4,minmax(190px,1fr))] px-0 sm:px-6 lg:max-w-[1230px] mx-auto">
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
+
+    const {firstRender, fullList, error, loading,searchResult} = useData()
+    const [toRender, setToRender] = useState(firstRender)
+
+
+    useEffect(() => {
+        if(!searchResult) {
+            setToRender(firstRender)
+        } else (
+            setToRender(searchResult)
+        )
+    },[searchResult])
+
+    useEffect(()=>{console.log(firstRender)},[])
+
+    if (error) return <div>{error}</div>
+
+
+    return ( <div className="tester  w-full   h-full  overflow-y-scroll [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
+        <div className="grid gap-[10px] grid-cols-[repeat(2,minmax(auto,2fr))] sm:grid-cols-[repeat(2,minmax(200px,1fr))] md:grid-cols-[repeat(3,minmax(200px,1fr))] lg:grid-cols-[repeat(4,minmax(190px,1fr))] px-0 sm:px-6 lg:max-w-[1150px] mx-auto">
+  
+            {toRender.map((tool, index) => (
+                <Card key={index} tool={tool} />
+            ))}
         </div>
     </div> );
 }
  
-export default HomeComp;
+export default HomeComp

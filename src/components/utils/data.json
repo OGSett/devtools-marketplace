@@ -1,0 +1,325 @@
+[
+  {
+    "id": 1,
+    "name": "Hoppscotch",
+    "img": "https://www.google.com/s2/favicons?domain=hoppscotch.io&sz=128",
+    "description": "Lightweight API client for REST, GraphQL, and WebSocket in the browser.",
+    "tag": "API & Data",
+    "link": "https://hoppscotch.io/"
+  },
+  {
+    "id": 2,
+    "name": "ReqBin",
+    "img": "https://www.google.com/s2/favicons?domain=reqbin.com&sz=128",
+    "description": "Online REST and SOAP API tester with shareable requests.",
+    "tag": "API & Data",
+    "link": "https://reqbin.com/"
+  },
+  {
+    "id": 3,
+    "name": "JSONLint",
+    "img": "https://www.google.com/s2/favicons?domain=jsonlint.com&sz=128",
+    "description": "Validate and format JSON instantly in the browser.",
+    "tag": "API & Data",
+    "link": "https://jsonlint.com/"
+  },
+  {
+    "id": 4,
+    "name": "FreeFormatter",
+    "img": "https://www.google.com/s2/favicons?domain=freeformatter.com&sz=128",
+    "description": "Online formatters and validators for JSON, XML, HTML, CSS, and more.",
+    "tag": "API & Data",
+    "link": "https://www.freeformatter.com/"
+  },
+  {
+    "id": 5,
+    "name": "Mocky",
+    "img": "https://www.google.com/s2/favicons?domain=mocky.io&sz=128",
+    "description": "Create custom mock APIs with persistent endpoints.",
+    "tag": "API & Data",
+    "link": "https://mocky.io/"
+  },
+  {
+    "id": 6,
+    "name": "Swagger Editor",
+    "img": "https://www.google.com/s2/favicons?domain=swagger.io&sz=128",
+    "description": "Design and document APIs with OpenAPI in the browser.",
+    "tag": "API & Data",
+    "link": "https://editor.swagger.io/"
+  },
+  {
+    "id": 7,
+    "name": "Quicktype",
+    "img": "https://www.google.com/s2/favicons?domain=quicktype.io&sz=128",
+    "description": "Generate types and models from JSON for many languages.",
+    "tag": "API & Data",
+    "link": "https://quicktype.io/"
+  },
+  {
+    "id": 8,
+    "name": "GraphQL Playground (Online)",
+    "img": "https://www.google.com/s2/favicons?domain=graphqlbin.com&sz=128",
+    "description": "Run GraphQL queries in a browser-based playground.",
+    "tag": "API & Data",
+    "link": "https://www.graphqlbin.com/"
+  },
+  {
+    "id": 9,
+    "name": "JWT.io",
+    "img": "https://www.google.com/s2/favicons?domain=jwt.io&sz=128",
+    "description": "Decode, verify, and debug JSON Web Tokens online.",
+    "tag": "API & Data",
+    "link": "https://jwt.io/"
+  },
+  {
+    "id": 10,
+    "name": "CSV Viewer Online",
+    "img": "https://www.google.com/s2/favicons?domain=csvviewer.com&sz=128",
+    "description": "Upload, view, and edit CSV files right in the browser.",
+    "tag": "API & Data",
+    "link": "https://www.csvviewer.com/"
+  },
+
+  {
+    "id": 11,
+    "name": "Lighthouse (Web)",
+    "img": "https://www.google.com/s2/favicons?domain=pagespeed.web.dev&sz=128",
+    "description": "Performance, accessibility, and SEO audits powered by Lighthouse.",
+    "tag": "Performance",
+    "link": "https://pagespeed.web.dev/"
+  },
+  {
+    "id": 12,
+    "name": "GTmetrix",
+    "img": "https://www.google.com/s2/favicons?domain=gtmetrix.com&sz=128",
+    "description": "Analyze website performance with actionable reports.",
+    "tag": "Performance",
+    "link": "https://gtmetrix.com/"
+  },
+  {
+    "id": 13,
+    "name": "WebPageTest",
+    "img": "https://www.google.com/s2/favicons?domain=webpagetest.org&sz=128",
+    "description": "Advanced site speed testing with deep diagnostics.",
+    "tag": "Performance",
+    "link": "https://www.webpagetest.org/"
+  },
+  {
+    "id": 14,
+    "name": "Pingdom Tools",
+    "img": "https://www.google.com/s2/favicons?domain=tools.pingdom.com&sz=128",
+    "description": "Run site speed tests from multiple regions.",
+    "tag": "Performance",
+    "link": "https://tools.pingdom.com/"
+  },
+  {
+    "id": 15,
+    "name": "Bundlephobia",
+    "img": "https://www.google.com/s2/favicons?domain=bundlephobia.com&sz=128",
+    "description": "Find the cost of adding an npm package to your bundle.",
+    "tag": "Performance",
+    "link": "https://bundlephobia.com/"
+  },
+  {
+    "id": 16,
+    "name": "Source Map Visualizer",
+    "img": "https://www.google.com/s2/favicons?domain=evanw.github.io&sz=128",
+    "description": "Visualize JavaScript bundles via source maps online.",
+    "tag": "Performance",
+    "link": "https://evanw.github.io/source-map-visualization/"
+  },
+  {
+    "id": 17,
+    "name": "Yellow Lab Tools",
+    "img": "https://www.google.com/s2/favicons?domain=yellowlab.tools&sz=128",
+    "description": "Front-end performance audit with detailed metrics.",
+    "tag": "Performance",
+    "link": "https://yellowlab.tools/"
+  },
+  {
+    "id": 18,
+    "name": "Varvy SEO Tool",
+    "img": "https://www.google.com/s2/favicons?domain=varvy.com&sz=128",
+    "description": "SEO and performance checks with clear recommendations.",
+    "tag": "Performance",
+    "link": "https://www.varvy.com/pagespeed/"
+  },
+  {
+    "id": 19,
+    "name": "PageSpeed Insights",
+    "img": "https://www.google.com/s2/favicons?domain=developers.google.com&sz=128",
+    "description": "Google’s performance insights with field and lab data.",
+    "tag": "Performance",
+    "link": "https://developers.google.com/speed/pagespeed/insights/"
+  },
+  {
+    "id": 20,
+    "name": "Website Carbon Calculator",
+    "img": "https://www.google.com/s2/favicons?domain=websitecarbon.com&sz=128",
+    "description": "Estimate the carbon footprint of your web pages.",
+    "tag": "Performance",
+    "link": "https://www.websitecarbon.com/"
+  },
+
+  {
+    "id": 21,
+    "name": "Figma",
+    "img": "https://www.google.com/s2/favicons?domain=figma.com&sz=128",
+    "description": "Collaborative UI design and prototyping in the browser.",
+    "tag": "Design & UI",
+    "link": "https://www.figma.com/"
+  },
+  {
+    "id": 22,
+    "name": "Penpot",
+    "img": "https://www.google.com/s2/favicons?domain=penpot.app&sz=128",
+    "description": "Open-source, web-based design and prototyping.",
+    "tag": "Design & UI",
+    "link": "https://penpot.app/"
+  },
+  {
+    "id": 23,
+    "name": "Canva",
+    "img": "https://www.google.com/s2/favicons?domain=canva.com&sz=128",
+    "description": "Quick graphic design for social, marketing, and UI assets.",
+    "tag": "Design & UI",
+    "link": "https://www.canva.com/"
+  },
+  {
+    "id": 24,
+    "name": "SVGOMG",
+    "img": "https://www.google.com/s2/favicons?domain=jakearchibald.github.io&sz=128",
+    "description": "Optimize and minify SVGs with a simple UI.",
+    "tag": "Design & UI",
+    "link": "https://jakearchibald.github.io/svgomg/"
+  },
+  {
+    "id": 25,
+    "name": "Coolors",
+    "img": "https://www.google.com/s2/favicons?domain=coolors.co&sz=128",
+    "description": "Generate and explore color palettes quickly.",
+    "tag": "Design & UI",
+    "link": "https://coolors.co/"
+  },
+  {
+    "id": 26,
+    "name": "CSS Gradient",
+    "img": "https://www.google.com/s2/favicons?domain=cssgradient.io&sz=128",
+    "description": "Create, preview, and export CSS gradients.",
+    "tag": "Design & UI",
+    "link": "https://cssgradient.io/"
+  },
+  {
+    "id": 27,
+    "name": "ColorZilla Gradient Editor",
+    "img": "https://www.google.com/s2/favicons?domain=colorzilla.com&sz=128",
+    "description": "Browser color picker and CSS gradient generator.",
+    "tag": "Design & UI",
+    "link": "https://www.colorzilla.com/gradient-editor/"
+  },
+  {
+    "id": 28,
+    "name": "Haikei",
+    "img": "https://www.google.com/s2/favicons?domain=haikei.app&sz=128",
+    "description": "Generate unique SVG backgrounds, blobs, and waves.",
+    "tag": "Design & UI",
+    "link": "https://www.haikei.app/"
+  },
+  {
+    "id": 29,
+    "name": "PatternPad",
+    "img": "https://www.google.com/s2/favicons?domain=patternpad.com&sz=128",
+    "description": "Create seamless, customizable SVG patterns.",
+    "tag": "Design & UI",
+    "link": "https://patternpad.com/"
+  },
+  {
+    "id": 30,
+    "name": "Blobmaker",
+    "img": "https://www.google.com/s2/favicons?domain=blobmaker.app&sz=128",
+    "description": "Random blob SVG generator for illustrations.",
+    "tag": "Design & UI",
+    "link": "https://www.blobmaker.app/"
+  },
+
+  {
+    "id": 31,
+    "name": "JSFiddle",
+    "img": "https://www.google.com/s2/favicons?domain=jsfiddle.net&sz=128",
+    "description": "Online HTML/CSS/JS playground for quick prototypes.",
+    "tag": "Code & Utility",
+    "link": "https://jsfiddle.net/"
+  },
+  {
+    "id": 32,
+    "name": "CodePen",
+    "img": "https://www.google.com/s2/favicons?domain=codepen.io&sz=128",
+    "description": "Front-end code playground and showcase.",
+    "tag": "Code & Utility",
+    "link": "https://codepen.io/"
+  },
+  {
+    "id": 33,
+    "name": "StackBlitz",
+    "img": "https://www.google.com/s2/favicons?domain=stackblitz.com&sz=128",
+    "description": "Instant online IDE for modern web projects.",
+    "tag": "Code & Utility",
+    "link": "https://stackblitz.com/"
+  },
+  {
+    "id": 34,
+    "name": "Replit",
+    "img": "https://www.google.com/s2/favicons?domain=replit.com&sz=128",
+    "description": "Collaborative online coding environment with hosting.",
+    "tag": "Code & Utility",
+    "link": "https://replit.com/"
+  },
+  {
+    "id": 35,
+    "name": "Regex101",
+    "img": "https://www.google.com/s2/favicons?domain=regex101.com&sz=128",
+    "description": "Test, debug, and explain regular expressions.",
+    "tag": "Code & Utility",
+    "link": "https://regex101.com/"
+  },
+  {
+    "id": 36,
+    "name": "Carbon",
+    "img": "https://www.google.com/s2/favicons?domain=carbon.now.sh&sz=128",
+    "description": "Create beautiful images of your code snippets.",
+    "tag": "Code & Utility",
+    "link": "https://carbon.now.sh/"
+  },
+  {
+    "id": 37,
+    "name": "Diffchecker",
+    "img": "https://www.google.com/s2/favicons?domain=diffchecker.com&sz=128",
+    "description": "Compare text, images, PDFs, and code differences.",
+    "tag": "Code & Utility",
+    "link": "https://www.diffchecker.com/"
+  },
+  {
+    "id": 38,
+    "name": "Base64 Guru",
+    "img": "https://www.google.com/s2/favicons?domain=base64.guru&sz=128",
+    "description": "Encode and decode Base64 for text and images.",
+    "tag": "Code & Utility",
+    "link": "https://base64.guru/"
+  },
+  {
+    "id": 39,
+    "name": "UUID Generator",
+    "img": "https://www.google.com/s2/favicons?domain=uuidgenerator.net&sz=128",
+    "description": "Generate UUIDs v1–v5 directly in your browser.",
+    "tag": "Code & Utility",
+    "link": "https://www.uuidgenerator.net/"
+  },
+  {
+    "id": 40,
+    "name": "ASCIIFlow",
+    "img": "https://www.google.com/s2/favicons?domain=asciiflow.com&sz=128",
+    "description": "Draw and edit ASCII diagrams online.",
+    "tag": "Code & Utility",
+    "link": "https://asciiflow.com/"
+  }
+]

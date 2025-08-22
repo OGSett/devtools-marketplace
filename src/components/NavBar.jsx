@@ -5,25 +5,25 @@ import { CiBookmarkPlus } from "react-icons/ci";
 
 const NavBar = () => {
     return ( 
-        <div className="flex flex-col md:flex-row gap-[50px] md:justify-around h-dvh md:h-[12%] px-3 md:w-full   md:mx-auto">
+        <div className=" flex items-center flex-col md:flex-row gap-[50px] md:justify-between h-dvh md:h-[10%] lg:max-w-[1150px] p-3 md:w-full  shadow-teal-600 md:mx-auto">
             <div className="md:forLogo forLogoMob">
                 
             </div>
-            <div className="flex flex-col md:flex-row">
+            <div className="flex flex-col md:flex-row items-center md:gap-6">
                 <a href="/">
-                    <div>
+                    <div className="flex items-center my-1 flex-col w-full md:flex-row md:justify-center md:items-center gap-2">
                         <RiHome2Line />
                         <div>Home</div>
                     </div>
                 </a>
                 <a href="/favorite">
-                    <div>
+                    <div className="flex items-center my-1 flex-col w-full md:flex-row md:justify-center md:items-center gap-2">
                         <CiStar />
                         <div>Favorite</div>
                     </div>
                 </a>
                 <a href="/about">
-                    <div>
+                    <div className="flex items-center my-1 flex-col w-full md:flex-row md:justify-center md:items-center gap-2">
                         <CiBookmarkPlus />
                         <div>About</div>
                     </div>
