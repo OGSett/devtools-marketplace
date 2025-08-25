@@ -7,7 +7,8 @@
 @layer components {
 
   .tester {
-    @apply p-4 bg-gray-200 rounded-lg  font-sans w-full
+    @apply p-4  rounded-lg  font-sans w-full
+    
   }
   .forLogo {
     background-image: url('./assets/edit3.png');
@@ -27,11 +28,15 @@
     height: 54px;
     margin: 20px 0;
   }
+  .dd {
+    background-image: url('./assets/bg1.png');
+    background-size: cover;
+    /* background-position: ce; */
+    background-repeat: no-repeat;
+  }
 
   body::-webkit-scrollbar {
     display: none;
-  } 
-
-
+  }
 
 }

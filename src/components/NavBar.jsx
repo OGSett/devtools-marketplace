@@ -5,7 +5,8 @@ import { CiBookmarkPlus } from "react-icons/ci";
 
 const NavBar = () => {
     return ( 
-        <div className=" flex items-center flex-col md:flex-row gap-[50px] md:justify-between h-dvh md:h-[10%] lg:max-w-[1150px] p-3 md:w-full  shadow-teal-600 md:mx-auto">
+        
+        <div className=" flex items-center  flex-col md:flex-row gap-[50px] md:justify-around    md:h-[10%]  p-3 md:w-full  shadow-teal-600 bg-gradient-to-r from-gray-100 via-gray-400 to-gray-800">
             <div className="md:forLogo forLogoMob">
                 
             </div>

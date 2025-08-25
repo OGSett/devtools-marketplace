@@ -18,6 +18,8 @@ export const DataProvider = ({children}) => {
     const [searchResult, setSearchResult] = useState(null)
     const [inputData, setInputData] = useState('')
     const [sortOption, setSortOption] = useState('')
+    const [filterByTag, setFilterByTag] = useState([])
+    const [byTag, setByTag] = useState('')
 
     useEffect(() => {
         try {
@@ -37,16 +39,20 @@ export const DataProvider = ({children}) => {
         }
     },[])
 
+    useEffect(()=>{
+        setFilterByTag([...data].filter(item => item.tag === byTag))
+    },[byTag])
+
     useEffect(() => {
-  console.log("firstRender updated:", firstRender);
-}, [firstRender]);
+  console.log("filterByTag updated:", filterByTag);
+}, [filterByTag]);
 
     useEffect(() => {
         const res = data.filter(item => item.name.toLocaleLowerCase().includes(inputData.toLocaleLowerCase()))
                     setSearchResult(res)
     },[inputData])
 
-    const value = {firstRender, fullList, error, loading, setDisplaySearch, displaySearch, inputData, setInputData, searchResult, alphaOrderListToZ,sortOption, setSortOption,alphaOrderListToA}
+    const value = {firstRender, fullList, error, loading, setDisplaySearch, displaySearch, inputData, setInputData, searchResult, alphaOrderListToZ,sortOption, setSortOption,alphaOrderListToA, byTag, setByTag, filterByTag}
 
     return <DataContext.Provider value={value}>{children}</DataContext.Provider>
 }

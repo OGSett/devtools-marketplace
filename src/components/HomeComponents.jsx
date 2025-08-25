@@ -6,7 +6,7 @@ import { useData } from "../context/DataContext";
 
 const HomeComp = () => {
 
-    const {firstRender, fullList, error, inputData,searchResult,alphaOrderListToZ,sortOption,alphaOrderListToA} = useData()
+    const {firstRender, fullList, error, inputData, searchResult, alphaOrderListToZ, sortOption, alphaOrderListToA, filterByTag, byTag} = useData()
     const [toRender, setToRender] = useState([])
 
 
@@ -17,12 +17,14 @@ const HomeComp = () => {
             setToRender(alphaOrderListToZ)
         } else if (sortOption === 'za') {
             setToRender(alphaOrderListToA)
-        } else if (inputData.trim() === ""){
+        } else if (byTag === 'API & Data' || byTag === 'Performance' || byTag === 'Design & UI' || byTag === 'Code & Utility'){
+            setToRender(filterByTag);
+        } else if (inputData.trim() === '') {
             setToRender(firstRender);
         } else {
             setToRender(searchResult);
         }
-    }, [inputData, firstRender, searchResult,sortOption]);
+    }, [inputData, firstRender, searchResult,sortOption,byTag,filterByTag]);
 
     useEffect(()=>{console.log(alphaOrderListToZ)},[alphaOrderListToZ])
 
