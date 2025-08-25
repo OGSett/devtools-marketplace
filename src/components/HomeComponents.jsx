@@ -6,19 +6,25 @@ import { useData } from "../context/DataContext";
 
 const HomeComp = () => {
 
-    const {firstRender, fullList, error, loading,searchResult} = useData()
-    const [toRender, setToRender] = useState(firstRender)
+    const {firstRender, fullList, error, inputData,searchResult,alphaOrderListToZ,sortOption,alphaOrderListToA} = useData()
+    const [toRender, setToRender] = useState([])
 
 
-    useEffect(() => {
-        if(!searchResult) {
-            setToRender(firstRender)
-        } else (
-            setToRender(searchResult)
-        )
-    },[searchResult])
 
-    useEffect(()=>{console.log(firstRender)},[])
+    
+   useEffect(() => {
+        if (sortOption === 'az') {
+            setToRender(alphaOrderListToZ)
+        } else if (sortOption === 'za') {
+            setToRender(alphaOrderListToA)
+        } else if (inputData.trim() === ""){
+            setToRender(firstRender);
+        } else {
+            setToRender(searchResult);
+        }
+    }, [inputData, firstRender, searchResult,sortOption]);
+
+    useEffect(()=>{console.log(alphaOrderListToZ)},[alphaOrderListToZ])
 
     if (error) return <div>{error}</div>
 
